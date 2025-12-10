@@ -1,0 +1,330 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Poppins !important;
+}
+
+main {
+    background: url(asset/unblured-portofolio.png) no-repeat center right;
+    background-size: cover;
+    padding-top: 70px;
+    /* Adjusted for fixed navbar */
+}
+
+ul>li>.nav-link {
+    font-family: 'Intel One Mono' !important;
+}
+
+.row>.col-6-md>h1 {
+    font-family: "Playfair Display", serif !important;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.row>.col-6-md>p {
+    font-family: "Playfair Display", serif !important;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+/* .navbar-custom {
+    background-color: transparent;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar-scrolled {
+    background-color: var(--bs-warning-bg-subtle);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+} */
+
+.typed-text {
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid white;
+    width: fit-content;
+}
+
+.navbar-brand {
+    transition: color 0.3s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.navbar-brand:hover {
+    color: #EAA64D !important;
+}
+
+.nav-link {
+    position: relative;
+    padding-bottom: 4px;
+    transition: color 0.4s ease-in-out;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    height: 2px;
+    width: 0;
+    background-color: #EAA64D;
+    transition: width 0.4s ease-in-out, left 0.4s ease-in-out;
+}
+
+.nav-link.active::after {
+    width: 100%;
+    left: 0;
+}
+
+.vh-95 {
+    height: 100vh !important;
+}
+
+.btn-group>.btn {
+    background-color: #fff3cd;
+    color: #7c2f1c !important;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.btn-group>.btn:hover {
+    background-color: #e7d59a;
+    transform: translateY(-3px);
+}
+
+.btn-group>.btn.active {
+    background-color: #e7d59a;
+}
+
+.html-span {
+    background-color: #F06529;
+    color: #fff;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+.css-span {
+    background-color: #2965f1;
+    color: #fff;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+.js-span {
+    background-color: #e2c81e;
+    color: #fff;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+.dart-span {
+    background-color: #0075BA;
+    color: #fff;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+.php-span {
+    background-color: #9277b3;
+    color: #fff;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+.go-span {
+    background-color: #00ADD8;
+    color: #fff;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+.java-span {
+    background-color: #f89820;
+    color: #fff;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+.laravel-span {
+    background-color: #FF2D20;
+    color: #fff;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+.bootstrap-span {
+    background-color: #563d7c;
+    color: #fff;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+.tailwind-span {
+    background-color: #06b6d4;
+    color: #fff;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+.flutter-span {
+    background-color: #61DAFB;
+    color: #fff;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+.mysql-span {
+    background-color: #e5e5e5;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+.my-span {
+    color: #00758F;
+}
+
+.sql-span {
+    color: #F29111;
+}
+
+.school-la {
+    font-size: 25px !important;
+}
+
+.location-link {
+    transition: all 0.3s ease-in-out;
+}
+
+.location-link:hover {
+    color: #0d6dfc !important;
+}
+
+.text-pkl {
+    color: #7c2f1c !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.text-pkl:hover {
+    color: #0d6dfc !important;
+}
+
+#projects {
+    background-color: #F4EBD3;
+
+}
+
+/* Mobile Responsive styles */
+
+@media (max-width: 768px) {
+    .btn-group {
+        flex-direction: column !important;
+        width: 100% !important;
+        gap: 0.5rem !important;
+    }
+
+    .row>.col-8 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .btn-group>.btn {
+        width: 100% !important;
+    }
+
+    .profile .card {
+        margin: 1rem !important;
+    }
+
+    .profile-icon img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        justify-content: center;
+        align-items: center;
+        display: block;
+    }
+
+    .profile-icon {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .profile-bio {
+        margin-top: 1rem !important;
+        margin-left: 0 !important;
+        text-align: center;
+        width: 100%;
+    }
+
+    .d-inline-flex {
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center;
+    }
+
+    .skills-brand {
+        margin-left: 0 !important;
+        text-align: center;
+    }
+
+    .personal-info {
+        text-align: left;
+    }
+
+    .card-la-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .school-la {
+        font-size: 18px !important;
+    }
+
+    .title-pkl {
+        font-size: 18px !important;
+    }
+
+    .text-pkl {
+        font-size: 16px !important;
+    }
+
+    .button-cwm {
+        font-size: 10px !important;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.tab-content-animated {
+    animation: fadeInUp 0.5s ease-in-out;
+}

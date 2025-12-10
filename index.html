@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rcode - Personal Branding Page</title>
+
+    <!-- Meta Tags -->
+    <meta name="description"
+        content="This is a personal Branding page for Muhammad Raffa Fadellah, showcasing his skills and interests as a web developer, fullstack developer, content creator, and gamer.">
+    <meta properties="og:title" content="Muhammad Raffa Fadellah - Web Developer">
+    </meta>
+    <meta properties="og:description"
+        content="Muhammad Raffa Fadellah Personal Branding Page. Web developer from Batam, Indonesia.">
+    </meta>
+
+    <!-- DevIcons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+    <!-- Font Awesome-->
+    <script src="https://kit.fontawesome.com/b628ba4512.js" crossorigin="anonymous"></script>
+
+    <!-- Icon -->
+    <link rel="icon" href="asset/logo.png" type="icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="scss/button.css" type="text/css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg bg-warning-subtle fixed-top">
+        <div class="container-fluid">
+            <a href="" class="navbar-brand ps-5 h1 text-danger-emphasis">rcode</a>
+            <!-- Button nav mobile-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar mabar-->
+            <div class="collapse navbar-collapse" id="NavbarSupportedContent">
+                <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0 gap-4">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active text-danger-emphasis" aria-current="page">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#profile" class="nav-link text-danger-emphasis">
+                            Profile
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link text-danger-emphasis">
+                            Projects
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main section -->
+    <main class="vh-100" id="home">
+        <div class="container-fluid w-100 h-100 d-flex justify-content-start align-items-center">
+            <div class="row justify-content-start align-items-start w-75">
+                <div class="col-4-md ms-5 text-white text-start absolute">
+                    <h1>Muhammad Raffa Fadellah</h1>
+                    <p class="typed-text ms-1 fs-4 text-white"></p>
+                </div>
+                <div class="col-4-md ms-5 text-white text-start">
+                    <!-- <img src="profile.jpg" alt="image" class="img img-fluid rounded-circle profile-image w-100 h-100"> -->
+                </div>
+                <div class="col-4-md ms-5 text-white text-start">
+                    <p class="ms-1 text-white text-bio">
+                        Hello, I'm Raffa, a passionate developer with a love for creating innovative web solutions. I
+                        enjoy
+                        coding, gaming, and sharing my knowledge through content creation. Let's connect and explore the
+                        world of technology together!
+                    </p>
+                </div>
+                <!-- <div class="col-6-md ms-5 text-white text-start">
+                    <div class="d-grid position-absolute">
+                        <a href="#profile" class="btn btn-primary px-auto" role="button">Start</a>
+                    </div>
+                </div> -->
+                <div class="col ms-5 mt-3 text-white text-start">
+                    <a href="#profile" class="button text-decoration-none absolute w-auto button-cwm" role="button">
+                        Connect with me!</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Profile Section -->
+    <div class="profile p-3 mb-5" id="profile">
+        <div class="container-fluid justify-content-center align-items-center">
+            <div class="mt-5 d-flex justify-content-center align-items-center">
+                <div
+                    class="btn-group w-75 gap-3 py-3 border-bottom border-2 border-dark-subtle d-flex justify-content-center align-items-center">
+                    <button class="btn rounded-3 shadow-sm active" data-bs-target="profile-tab">Profile &
+                        Education</button>
+                    <button class="btn rounded-3 shadow-sm" data-bs-target="experience-tab">Experience</button>
+                    <button class="btn rounded-3 shadow-sm" data-bs-target="certificate-tab">Certificate &
+                        Training</button>
+                </div>
+            </div>
+            <!-- Profile Card -->
+            <div class="card mx-4 mt-5 h-100 w-auto border-0 rounded-4 shadow" id="profile-tab">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-8 d-inline-flex profile">
+                            <div class="profile-icon">
+                                <img src="asset/profile1.png"
+                                    class="img img-fluid ms-3 mt-5 rounded-circle border border-5 border-warning-subtle"
+                                    alt="profile-image">
+                            </div>
+                            <div class="profile-bio ms-4 mt-4">
+                                <h3>Muhammad Raffa Fadellah</h3>
+                                <p class="text-secondary">Web Developer | Fullstack Developer | Content Creator | Gamer
+                                </p>
+                                <!-- Personal Information -->
+                                <div class="personal-info">
+                                    <!-- <p class="text-secondary"><i class="fa-solid fa-earth-asia"></i>
+                                        <span class="ms-2">Country</span>
+                                        <span class="ms-2">:</span> Indonesia
+                                    </p> -->
+                                    <p class="text-secondary"><i class="fa-solid fa-location-dot "></i>
+                                        <span class="ps-1 ms-3">From</span>
+                                        <span class="ps-1 ms-4">:</span> Indonesia
+                                    </p>
+                                    <p class="text-secondary"><i class="fa-solid fa-envelope"></i>
+                                        <span class="ms-3">Email</span>
+                                        <span class=" ms-4">:</span> azraff1982@gmail.com
+                                    </p>
+                                    <!-- <p class="text-secondary"><i class="fa-solid fa-house"></i>
+                                        <span class="ms-2">Domicile</span>
+                                        <span>:</span> Batam City, Riau Islands Province.
+                                    </p> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="skills-content ms-3 mt-3">
+                                <p class="skills-brand mt-3 fs-4">Skills 👨‍💻</p>
+                                <div class="skills-container mt-2">
+                                    <div class="skills-list">
+                                        <p class="skills-title">
+                                            <i class="fa-solid fa-code me-2"></i> Front-end Development
+                                        </p>
+                                        <div class="skills-item d-flex gap-2 flex-wrap">
+                                            <span class="html-span"><i class="fa-brands fa-html5"></i>
+                                                HTML</span>
+                                            <span class="css-span"><i class="fa-brands fa-css3-alt"></i>
+                                                CSS</span>
+                                            <span class="js-span"><i class="fa-brands fa-square-js"></i>
+                                                Javascript</span>
+                                            <span class="dart-span"><i class="fa-brands fa-dart-lang"></i>
+                                                Dart</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills-container mt-4">
+                                    <div class="skills-list">
+                                        <p class="skills-title">
+                                            <i class="fa-solid fa-server me-2"></i> Back-end Development
+                                        </p>
+                                        <div class="skills d-flex gap-2 flex-wrap">
+                                            <span class="php-span"><i class="fa-brands fa-php"></i> PHP</span>
+                                            <span class="java-span"><i class="fa-brands fa-java"></i>
+                                                Java</span>
+                                            <span class="go-span"><i class="fa-brands fa-golang"></i>
+                                                GO</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills-container mt-4">
+                                    <div class="skills-list">
+                                        <p class="skills-title">
+                                            <i class="fa-solid fa-network-wired"></i> Frameworks
+                                        </p>
+                                        <div class="skills d-flex gap-2 flex-wrap">
+                                            <span class="laravel-span mt-1">
+                                                <i class="fab fa-laravel"></i> Laravel
+                                            </span>
+                                            <span class="bootstrap-span mt-1">
+                                                <i class="fab fa-bootstrap"></i> Bootstrap
+                                            </span>
+                                            <span class="tailwind-span mt-1"><img
+                                                    src="https://cdn.simpleicons.org/tailwindcss/ffffff"
+                                                    alt="Tailwind CSS Logo" width="25" height="25">
+                                                Tailwind CSS
+                                            </span>
+                                            <span class="flutter-span mt-1">
+                                                <i class="fa-brands fa-flutter"></i> Flutter
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills-container mt-4">
+                                    <div class="skills-list">
+                                        <p class="skills-title">
+                                            <i class="fa-solid fa-database me-2"></i> Database
+                                        </p>
+                                        <div class="skills d-flex gap-2 flex-wrap">
+                                            <span class="mysql-span">
+                                                <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                                                    width="25" height="25">
+                                                    <path
+                                                        d="M17.195 5.308a6.61 6.61 0 0 0-.804.026c-1.223.108-1.834.504-2.135.691-.135.083-.344.1-.518.062-3.518-1.08-6.743-.62-8.363-.142-3.228.951-3.893 2.885-4.098 3.978-.07.295-.093.532-.13.67-.115.443-1.565 1.225-1.029 1.78.517.534 1.423.478 2.08.216 1.494-.592 2.652-.809 4.599-.882h.021c.181-.003.338-.034.475.091.16.149.708 1.308 1.927 2.16 1.363.953 2.772.913 2.86.768v-.002h.002l.002-.002v-.002c.036-.12-.315-.2-1.063-1.13-.646-.804-.592-1.645.036-1.49a.591.591 0 0 0 .04.007c3.447.901 5.748 2.922 5.868 2.947v.002h.002l.002-.002.002-.002v-.008c.166-.229-.958-2.957-3.871-4.586-3.297-1.843-6.389-.971-7.061-.693-.162-.272.967-1.383 3.377-1.476 5.4-.209 8.744 2.753 10.578 4.56 2.25 2.217 3.923 5.853 3.973 5.846l.002-.002h.002v-.004h.004c.12-.125-.2-2.393-.885-4.045-.881-2.126-1.966-3.69-3.525-5.148a15.572 15.572 0 0 0-2.153-1.69c-.114-.079-.254-.183-.337-.328.434-1.003 2.046-1.04 2.213-1.13l.007-.005.002-.002v-.002l.002-.004c.085-.183-.424-.966-2.107-1.023z" />
+                                                </svg> <span class="my-span">My</span><span class="sql-span">SQL</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="ms-3 mt-4 fs-4">Last Education 🎓</p>
+                            <div class="card-la-wrapper">
+                                <div
+                                    class="card card-la ms-2 px-3 w-100 border-0 border-start border-5 mb-3 border-success-subtle rounded-2 shadow">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <!-- Title & Year -->
+                                                <div
+                                                    class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center w-100 mb-2">
+                                                    <div class="d-flex align-items-center mb-2 mb-md-0">
+                                                        <i class="fa-solid fa-school fs-5 me-2"></i>
+                                                        <span class="fw-bold school-la">Sekolah Menengah Kejuruan /
+                                                            <i>
+                                                                Vocational High School
+                                                            </i>
+                                                        </span>
+                                                    </div>
+                                                    <div class="d-flex align-items-center text-muted">
+                                                        <i class="fa-regular fa-calendar-days me-1"></i>
+                                                        <span>2022 - 2025</span>
+                                                    </div>
+                                                </div>
+                                                <!-- Location -->
+                                                <a href="https://smkinformatika-crbn.sch.id/"
+                                                    class="text-secondary mb-0 location-link">
+                                                    <i class="fa-solid fa-location-dot me-2"></i>
+                                                    SMK Informatika Al-Irsyad Al-Islamiyyah Kota Cirebon
+                                                </a>
+                                                <!-- Major -->
+                                                <div class="major mt-4">
+                                                    <p class="major-title">
+                                                        <i class="fa-solid fa-book-open-reader me-1"></i> Major :
+                                                        <span>Rekayasa Perangkat Lunak /
+                                                            <i>Sorftware Engineering</i>
+                                                        </span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Experience Card -->
+        <div class="container-fluid justify-content-center align-items-center p-4 d-none" id="experience-tab">
+            <div class="card mx-4 mt-5 w-auto border-0 border-start border-5 border-warning-subtle rounded-2 shadow">
+                <div class="card-body ms-4 mt-2 mb-3">
+                    <div
+                        class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center w-100 mb-2">
+                        <div class="d-flex align-items-center mb-2 mb-md-0">
+                            <h5 class="title-pkl fw-bold text-secondary">Praktik Kerja Lapangan / <i>Field Work
+                                    Practice</i>
+                            </h5>
+                        </div>
+                        <div class="d-flex align-items-center text-muted">
+                            <i class="fa-regular fa-calendar-days me-2"></i>
+                            <span class="me-3">08/2024 - 11/2024</span>
+                        </div>
+                    </div>
+                    <a href="https://cirebonkota.bps.go.id/" class="text-warning text-pkl">
+                        <i class="fa-solid fa-location-dot me-2"></i>
+                        Badan Pusat Statistik (BPS) Kota Cireon / <i>BPS-Statistics Of Cirebon Municipality</i></a>
+                    <div class="card-main my-3">
+                        <ul class="list-unstyled text-secondary">
+                            <li>> Membuat infografis dari data yang sudah tersedia.</li>
+                            <li>> Mengolah data mentah menjadi tabel yang akan digunakan sebagai sumber data.</li>
+                            <li>> Membuat website yang akan digunakan untuk mempermudah pengolahan data di Kecamatan
+                                Kesambi, Kota Cirebon.</li>
+                            <li>> Bekerja sama dalam tim berjumlah 5 orang untuk menyelesaikan projek.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mx-4 mt-5 w-auto border-0 border-start border-5 border-warning-subtle rounded-2 shadow">
+                <div class="card-body ms-4 mt-2 mb-3">
+                    <div
+                        class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center w-100 mb-2">
+                        <div class="d-flex aling-items-center mb-2 mb-md-0">
+                            <h5 class="title-organisasi fw-bold text-secondary">
+                                Pengalaman Organisasi /
+                                <i>Organization Experience</i>
+                            </h5>
+                        </div>
+                        <div class="d-flex align-items-center text-muted">
+                            <i class="fa-regular fa-calendar-days me-2"></i>
+                            <span class="me-3">2022 - 2024</span>
+                        </div>
+                    </div>
+                    <a href="https://smkinformatika-crbn.sch.id/" class="text-warning text-pkl">
+                        <i class="fa-solid fa-location-dot me-2"></i>
+                        SMK Informatika Al-irsyad Al-islamiyyah Kota Cirebon
+                    </a>
+                    <div class="card-main my-3">
+                        <div class="main-1 my-4">
+                            <p class="fs-5 fw-bold text-secondary">Ketua Organisasi / <i>Chairman Of the
+                                    Organization</i> :</p>
+                            <ul>
+                                <li>Ketua Basketball Club 2023 - 2024 / <i>Chairman of Basketball Club 2023 - 2024</i>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="main-2 my-4">
+                            <p class="fs-5 fw-bold text-secondary"> Anggota Organisasi / <i>Member Of the
+                                    Organization</i> :</p>
+                            <ul>
+                                <li class="my-2">Anggota IT Club 2022 - 2024 / <i>IT Club Member 2022 - 2024</i></li
+                                    class="my-2">
+                                <li class="my-2">Anggota English Club 2022 - 2024 / <i>English Club Member 2022 -
+                                        2024</i class="my-2"></li>
+                                <li class="my-2">Anggota Pramuka 2022 - 2023 / <i>Scout Members 2022 - 2023</i></li>
+                                <li class="my-2">Anggota Organisasi Siswa Intra Sekolah (OSIS) 2023 - 2024 / <i>Member
+                                        of Intra-School Student Organization (OSIS) 2023 - 2024</i></li>
+                                <li class="my-2">Anggota Ikatan Remaja Masjid (IRMAIS) 2023 - 2024 / <i>Member of the
+                                        Mosque Youth Association (IRMAIS) 2023 - 2024</i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Certificate Card-->
+        <div class="container-fluid justify-content-center align-items-center p-4 d-none" id="certificate-tab">
+            <div class="row my-5 g-4">
+                <!-- Card 1 -->
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="card h-100">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Gambar 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Judul Card 1</h5>
+                            <p class="card-text">Deskripsi singkat untuk card 1.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="card h-100">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Gambar 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Judul Card 2</h5>
+                            <p class="card-text">Deskripsi singkat untuk card 2.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="card h-100">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Gambar 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Judul Card 3</h5>
+                            <p class="card-text">Deskripsi singkat untuk card 3.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="card h-100">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Gambar 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Judul Card 4</h5>
+                            <p class="card-text">Deskripsi singkat untuk card 4.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="card h-100">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Gambar 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Judul Card 5</h5>
+                            <p class="card-text">Deskripsi singkat untuk card 4.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Section -->
+    <div class="wrapper p-3 pb-5" id="projects">
+        <div class="container-fluid">
+            <div class="row d-flex align-items-start">
+                <h4 class="fw-bold text-muted text-center text-uppercase my-5">Projects</h4>
+                <!-- Konsep Kedua -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card w-100 bg-light shadow-sm mb-3">
+                        <img src="project1.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Project title</h5>
+                            <p class="card-text">Short description of what the project does or its purpose.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card w-100 bg-light shadow-sm mb-3">
+                        <img src="project1.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Project title</h5>
+                            <p class="card-text">Short description of what the project does or its purpose.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card w-100 bg-light shadow-sm mb-3">
+                        <img src="project1.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Project title</h5>
+                            <p class="card-text">Short description of what the project does or its purpose.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card w-100 bg-light shadow-sm mb-3">
+                        <img src="project1.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Project title</h5>
+                            <p class="card-text">Short description of what the project does or its purpose.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card w-100 bg-light shadow-sm mb-3">
+                        <img src="project1.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Project title</h5>
+                            <p class="card-text">Short description of what the project does or its purpose.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <!-- <section class="my-5">
+            <h2 class="fw-bold text-center mb-4">My Projects</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="project1.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Title</h5>
+                            <p class="card-text">Short description of what the project does or its purpose.</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+    </div>
+    </div>
+    <footer class="text-white pt-5 pb-4" style="background: linear-gradient(135deg, #1d1f21, #2c3e50);">
+        <div class="container text-md-left">
+            <div class="row">
+
+                <!-- Brand/About -->
+                <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-4">
+                    <h5 class="text-uppercase fw-bold mb-4">MyPortfolio</h5>
+                    <p class="text-light">
+                        Menampilkan project terbaik saya sebagai developer & desainer web. Terus berkembang, terus
+                        berkarya.
+                    </p>
+                </div>
+
+                <!-- Links -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                    <h5 class="text-uppercase fw-bold mb-4">Navigasi</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#home" class="text-light text-decoration-none">Home</a></li>
+                        <li class="mb-2"><a href="#projects" class="text-light text-decoration-none">Projects</a>
+                        </li>
+                        <li class="mb-2"><a href="#skills" class="text-light text-decoration-none">Skills</a></li>
+                        <li class="mb-2"><a href="#contact" class="text-light text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="col-md-5 col-lg-5 col-xl-5 mx-auto mb-4">
+                    <h5 class="text-uppercase fw-bold mb-4">Hubungi Saya</h5>
+                    <p><i class="bi bi-envelope-fill me-2"></i>email@example.com</p>
+                    <p><i class="bi bi-telephone-fill me-2"></i>+62 812-3456-7890</p>
+                    <div class="mt-3">
+                        <a href="#" class="text-white fs-5 me-3 social-icon"><i class="bi bi-github"></i></a>
+                        <a href="#" class="text-white fs-5 me-3 social-icon"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="text-white fs-5 me-3 social-icon"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="text-secondary fw-bold">
+            <div class="text-center text-light">
+                &copy; 2025 <strong>MyPortfolio</strong>. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
